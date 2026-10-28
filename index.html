@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="robots" content="noindex, nofollow">
 <meta name="description" content="Informação para os compartes do Baldio de Santa Cruz da Trapa sobre a proposta de cessão de exploração da Antarr.">
+<script data-goatcounter="https://baldio-trapa.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
 <style>html,body{margin:0}img{max-width:100%}[hidden]{display:none!important}:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}</style>
 <title>Baldio da Trapa Briefing</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -397,7 +398,7 @@ th{font:500 11px var(--mono);letter-spacing:.07em;text-transform:uppercase;color
     <li><a href="https://sig.cm-spsul.pt/arcgis/rest/services/Intranet/CRIF_Pro/MapServer" target="_blank" rel="noopener">Câmara de São Pedro do Sul map server: Perímetro Florestal layer</a></li>
     <li><a href="https://www.cm-spsul.pt/municipio/orgaos-autarquicos/camara-municipal/reunioes-de-camara" target="_blank" rel="noopener">Câmara de São Pedro do Sul: meeting agendas</a></li>
   </ol></div>
-  <p class="muted" style="font-size:13px">Compiled 22–25 October 2026. Chart placements and stated stances are analytical judgements, not statements by the parties. Office-holders' names come from the sources cited and may have changed. This is not legal advice.</p>
+  <p class="muted" style="font-size:13px">Compiled 22–25 October 2026. Chart placements and stated stances are analytical judgements, not statements by the parties. Office-holders' names come from the sources cited and may have changed. This is not legal advice. Visits are counted anonymously with GoatCounter (no cookies, no personal data).</p>
 </div>
 </section>
 
@@ -1940,6 +1941,7 @@ drawCards(); select(sel,false);
 };
 const started={};
 function show(name){
+  try{ if(window.__gcReady && window.goatcounter && window.goatcounter.count){ window.goatcounter.count({path:'/baldio-trapa/#'+name, title:'Tab: '+name}); } }catch(e){}
   if(!document.querySelector(`[data-sheet="${name}"]`)) name="overview";
   document.querySelectorAll(".sheet").forEach(s=>s.hidden=s.dataset.sheet!==name);
   document.querySelectorAll(".tabs a").forEach(a=>a.setAttribute("aria-selected",String(a.dataset.tab===name)));
@@ -1951,7 +1953,7 @@ function show(name){
 }
 document.addEventListener("click",e=>{const a=e.target.closest('a[href^="#"]'); if(!a) return; const n=a.getAttribute("href").slice(1); if(!n) return; e.preventDefault(); show(n); try{history.replaceState(null,"","#"+n);}catch(err){} });
 let first="overview"; try{ first=location.hash.slice(1)||"overview"; }catch(e){}
-show(first);
+show(first); window.__gcReady=true;
 </script>
 
 </body>

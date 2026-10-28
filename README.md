@@ -35,6 +35,7 @@ A lista completa, com ligações, está no separador **Fontes** da página.
 - **Área da Antarr em Carvalhais:** traçada a partir do mapa publicado pela Antarr (1 out. 2026).
 - Os ficheiros em [`data/`](data/) contêm estes dois contornos aproximados em GeoJSON (WGS84).
 - As posições no mapa de interesses e as posições atribuídas às entidades são análises, não declarações das partes.
+- **Visitas:** a página conta visitas de forma anónima com [GoatCounter](https://www.goatcounter.com/) (sem cookies e sem dados pessoais), incluindo os separadores abertos.
 - **Isto não é aconselhamento jurídico.** Para decisões, consulte a Baladi (Federação Nacional dos Baldios) ou um advogado.
 
 ## Correções
