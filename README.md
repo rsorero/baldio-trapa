@@ -2,7 +2,12 @@
 
 Página informativa para os compartes do **Baldio de Santa Cruz da Trapa** (São Pedro do Sul, Viseu) sobre a proposta de **cessão de exploração** apresentada pela Antarr Sustainable Productive Forest, S.A. a 13 de agosto de 2026.
 
-**Página:** https://rsorero.github.io/baldio-trapa/
+**Página:** https://rsorero.github.io/baldio-trapa/ (abre na língua do navegador)
+
+- Português: https://rsorero.github.io/baldio-trapa/pt/
+- English: https://rsorero.github.io/baldio-trapa/en/
+
+Cada página tem um botão para mudar de língua no mesmo separador. Os separadores também têm ligação direta, por exemplo `…/pt/#law` ou `…/en/#checklist`.
 
 A página reúne num só sítio a informação pública e a proposta entregue aos compartes, para que cada um possa decidir informado. Não toma posição a favor ou contra.
 
@@ -46,4 +51,4 @@ Se encontrar um erro ou tiver informação nova (atas, contrato, mapas), abra um
 
 ## English summary
 
-An information page for the commoners of the **Santa Cruz da Trapa baldio** (common land in São Pedro do Sul, Portugal). It covers Antarr's proposal of 13 August 2026 to take 365 ha of the baldio under an 80-year operating lease, at an initial rent of €7,500 a year, together with a forest plan. It brings together the proposal's terms, the relevant law (Lei 75/2017), a list of questions for the commoners' assembly, maps and sources. The proposal area on the map is an approximate georeference, about ±50 m. This is not legal advice.
+An information page for the commoners of the **Santa Cruz da Trapa baldio** (common land in São Pedro do Sul, Portugal). It covers Antarr's proposal of 13 August 2026 to take 365 ha of the baldio under an 80-year operating lease, at an initial rent of €7,500 a year, together with a forest plan. It brings together the proposal's terms, the relevant law (Lei 75/2017), a list of questions for the commoners' assembly, maps and sources. The proposal area on the map is an approximate georeference, about ±50 m. The page is available in Portuguese (https://rsorero.github.io/baldio-trapa/pt/) and English (https://rsorero.github.io/baldio-trapa/en/). This is not legal advice.
